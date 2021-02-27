@@ -1,0 +1,143 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+}
+
+a:link, a:visited, a:-webkit-any-link {
+    text-decoration: none;
+    color: #000;
+}
+
+.pageContainer {
+  position: relative;
+  min-height: 100vh;
+}
+
+.contentWrap {
+  padding-bottom: 7rem; /* Footer height */
+}
+
+.home {
+  margin-right: 1rem;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+footer {
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 5rem; /* Footer height */
+}
+
+.navBar {
+  padding-top: 2rem;
+  padding-left: 10%;
+  padding-right: 10%;
+  width: 80%;
+  position: fixed;
+  display: flex;
+  left: 0;
+  top: 0;
+  background: #fff;
+}
+
+.navItem {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 0.5rem;
+}
+
+.linkedin {
+  position: relative;
+  top: -2px;
+  margin-right: 1rem;
+}
+
+.navIconDiv {
+  margin-left: auto;
+  align-self: flex-end;
+}
+
+.navIcon {
+  width: 18px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.intro {
+  margin-top: 15%;
+  text-align: center;
+}
+
+.introHeader {
+  font-size: 64px;
+  font-weight: 400;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  color: #5f5e60;
+}
+
+.introSubHeader {
+  font-weight: 100;
+  font-size: 18px;
+  margin-top: 0;
+  padding-top: 0;
+  color: #818181;
+}
+
+.introText {
+  font-weight: 100;
+  color: #000;
+}
+
+.projectContainer {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+}
+
+.projectTitleDiv {
+  padding-top: 4rem;
+  margin-top: 15%;
+  width: 100%;
+}
+
+.projectTitle {
+  margin-left: 10%;
+}
+
+.first {
+  height: 500px;
+  background-color: #2f2473;
+}
+
+.second {
+  height: 500px;
+  background-color: #302e82;
+}
+
+.third {
+  height: 500px;
+  background-color: #736c9e;
+}
+
+.fourth {
+  height: 500px;
+  background-color: #bebcc8;
+}
+
+.fifth {
+  height: 500px;
+  background-color: #848c98;
+}
+
+.sixth {
+  height: 500px;
+  background-color: #bbbac5;
+}
