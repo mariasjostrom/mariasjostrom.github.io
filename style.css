@@ -98,8 +98,10 @@ footer {
 
 .projectContainer {
   display: grid;
+  justify-content: space-around;
   align-items: center;
-  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  justify-items: center;
+  grid-template-columns: repeat(auto-fill, minmax(375px, 1fr));
 }
 
 .projectTitleDiv {
@@ -114,30 +116,36 @@ footer {
 
 .first {
   height: 500px;
+  width: 375px;
   background-color: #2f2473;
 }
 
 .second {
   height: 500px;
+  width: 375px;
   background-color: #302e82;
 }
 
 .third {
   height: 500px;
+  width: 375px;
   background-color: #736c9e;
 }
 
 .fourth {
   height: 500px;
+  width: 375px;
   background-color: #bebcc8;
 }
 
 .fifth {
   height: 500px;
+  width: 375px;
   background-color: #848c98;
 }
 
 .sixth {
   height: 500px;
+  width: 375px;
   background-color: #bbbac5;
 }
