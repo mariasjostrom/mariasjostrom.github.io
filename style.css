@@ -71,7 +71,7 @@ footer {
   align-items: center;
 }
 .intro {
-  margin-top: 15%;
+  margin-top: 10%;
   text-align: center;
 }
 
@@ -99,12 +99,12 @@ footer {
 .projectContainer {
   display: grid;
   align-items: center;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
 }
 
 .projectTitleDiv {
   padding-top: 4rem;
-  margin-top: 15%;
+  margin-top: 10%;
   width: 100%;
 }
 
