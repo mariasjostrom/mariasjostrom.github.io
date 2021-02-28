@@ -16,7 +16,9 @@ a:hover {
 .pageContainer {
   position: relative;
   min-height: 100vh;
-  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .contentWrap {
@@ -37,22 +39,29 @@ footer {
   height: 5rem;
 }
 
-.navBar {
-  padding-top: 2rem;
-  padding-left: 10%;
-  padding-right: 10%;
-  width: 80%;
+.navBarContainer {
   position: fixed;
   display: flex;
-  left: 0;
   top: 0;
+  width: 100%;
+  padding-top: 2rem;
   background: #fff;
+}
+
+.navBar {
+  padding-left: 2rem;
+  width: 100%;
+  max-width: 1200px;
 }
 
 .navItem {
   margin-left: 1rem;
   margin-right: 1rem;
   margin-top: 0.5rem;
+}
+
+.navSelected{
+  text-decoration: underline !important;
 }
 
 .linkedin {
@@ -62,8 +71,8 @@ footer {
 }
 
 .navIconDiv {
-  margin-left: auto;
-  align-self: flex-end;
+  float: right;
+  margin-right: 4rem;
 }
 
 .navIcon {
@@ -112,14 +121,11 @@ footer {
   margin-right: auto;
 }
 
-.projectTitleDiv {
+.projectTitle {
   padding-top: 4rem;
+  margin-left: 2rem;
   margin-top: 10%;
   width: 100%;
-}
-
-.projectTitle {
-  margin-left: 10%;
 }
 
 .projectItem {
