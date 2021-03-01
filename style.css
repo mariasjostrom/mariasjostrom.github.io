@@ -73,6 +73,7 @@ footer {
 .navIconDiv {
   float: right;
   margin-right: 4rem;
+  margin-top: 0.5rem;
 }
 
 .navIcon {
@@ -125,7 +126,6 @@ footer {
   padding-top: 4rem;
   margin-left: 2rem;
   margin-top: 10%;
-  width: 100%;
 }
 
 .projectItem {
@@ -156,4 +156,22 @@ footer {
 
 .sixth {
   background-color: #bbbac5;
+}
+
+
+@media only screen and (max-width: 650px) {
+  .home { 
+    display: block;
+    width: 100%; 
+  }
+  .navItem {
+    margin-left: inherit;
+  }
+  .navIconDiv {
+    margin-top: inherit;
+    margin-right: 2rem;
+  }
+  .intro {
+    margin-top: 20%;
+  }
 }
