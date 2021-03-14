@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Maria Sjöström</title>
     <link rel="stylesheet" href="style.css" />
-    <script src="script.js" defer ></script>
+    <script src="script.js" defer></script>
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
@@ -18,9 +18,23 @@
       <div class="contentWrap">
         <div class="navBarContainer">
           <div class="navBar">
-            <a class="home" href="#top">MARIA&nbsp;SJÖSTRÖM</a>
-            <a class="navItem" href="#project">Portfolio</a>
-            <a class="navItem" href="about.html">OM&nbsp;&&nbsp;KONTAKT</a>
+            <a class="home" href="#top" onclick="clearSelectedNav()"
+              >MARIA&nbsp;SJÖSTRÖM</a
+            >
+            <a
+              class="navItem"
+              id="navProject"
+              href="#project"
+              onclick="toggleSelectedNav('navProject')"
+              >Portfolio</a
+            >
+            <a
+              class="navItem"
+              id="about"
+              href="about.html"
+              onclick="toggleSelectedNav('about')"
+              >OM&nbsp;&&nbsp;KONTAKT</a
+            >
             <div class="navIconDiv">
               <a
                 href="https://www.linkedin.com/in/maria-sj%C3%B6str%C3%B6m-a17b4013b/"
@@ -47,15 +61,41 @@
             </p>
           </div>
         </div>
+        
+      <div class="spacer"></div>
 
-        <h2 class="projectTitle" id="project">Portfolio</h2>
+        <h2 id="project" class="projectTitle">Portfolio</h2>
         <div class="projectContainer">
-          <div class="projectItem first"></div>
-          <div class="projectItem second"></div>
+          <a class="projectItem first" href="./projects/project1.html">
+            <div class="imgContainer">
+              <img src="./asserts/pdo.png" class="pdo" />
+            </div>
+            <p class="projectCardHeader">Ux design</p>
+            <p class="projcetCardTitle">Patterns of daly occupations</p>
+          </a>
+          <a class="projectItem second" href="./projects/ddi.html">
+            <div class="imgContainer">
+              <img src="./asserts/ddi.png" class="ddi" />
+            </div>
+            <p class="projectCardHeader">Formgivning</p>
+            <p class="projcetCardTitle">Grafisk manual</p>
+          </a>
           <div class="projectItem third"></div>
           <div class="projectItem fourth"></div>
           <div class="projectItem fifth"></div>
           <div class="projectItem sixth"></div>
+        </div>
+
+        <div class="container">
+          <div class="intro">
+            <p class="introSubHeader">Om & Kontakt</p>
+            <p class="introText">
+              Jag vill vara med och forma framtiden genom design.<br />
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore<br />
+              et dolore magna aliqua. Ut enim ad minim veniam,
+            </p>
+          </div>
         </div>
       </div>
 

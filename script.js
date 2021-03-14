@@ -1,11 +1,13 @@
-const RANDOM_QUOTE_API_URL = 'http://api.quotable.io/random'
+// function toggleSelectedNav(id) {
+//   clearSelectedNav();
+//   let element = document.getElementById(id);
+//   element.classList.add("navSelected");
+// }
 
+// function clearSelectedNav() {
+//   let list = document.getElementsByClassName("navSelected");
 
-function getRandomQuote() {
-    return fetch(RANDOM_QUOTE_API_URL)
-      .then(response => response.json())
-      .then(data => console.log(data.content))
-  }
-
-
-getRandomQuote();
+//   for (i = 0; i < list.length; i++) {
+//     list[i].classList.remove("navSelected");
+//   }
+// }

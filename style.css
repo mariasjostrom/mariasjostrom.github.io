@@ -4,9 +4,15 @@ body {
   font-weight: 100;
 }
 
-a:link, a:visited, a:-webkit-any-link {
-    text-decoration: none;
-    color: #000;
+html {
+  scroll-behavior: smooth;
+}
+
+a:link,
+a:visited,
+a:-webkit-any-link {
+  text-decoration: none;
+  color: #000;
 }
 
 a:hover {
@@ -60,7 +66,7 @@ footer {
   margin-top: 0.5rem;
 }
 
-.navSelected{
+.navSelected {
   text-decoration: underline !important;
 }
 
@@ -122,20 +128,88 @@ footer {
   margin-right: auto;
 }
 
+.spacer {
+  margin-top: 10%;
+}
+
 .projectTitle {
+  margin-left: 2rem;
+  margin-top: 0px;
+}
+
+.projectHeader {
+  color: #818181;
   padding-top: 4rem;
   margin-left: 2rem;
   margin-top: 10%;
+  margin-bottom: 0px;
+}
+.projPageTitle {
+  margin-left: 2rem;
+  margin-top: 0px;
+  font-size: 2rem;
+}
+
+.projPageHeader{
+  font-size: 1.5rem;
+  color: #818181;
+  padding-top: 4rem;
+  margin-left: 2rem;
+  margin-top: 10%;
+  margin-bottom: 0px;
 }
 
 .projectItem {
   height: 500px;
   width: 375px;
   margin-bottom: 1rem;
+  transition: all 0.3s ease 0s;
+}
+
+.projectItem:hover {
+  overflow: visible;
+  padding: 0px;
+  box-shadow: 0px 0px 70px rgba(0, 0, 0, 0.4);
+  color: #fff;
+  text-decoration: none;
+}
+
+.imgContainer {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .first {
   background-color: #2f2473;
+}
+
+.pdo {
+  height: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.ddi {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.projectCardHeader {
+  font-size: 16px;
+  margin-bottom: 0px;
+  text-align: center;
+  color: #fff;
+}
+
+.projcetCardTitle {
+  font-size: 22px;
+  font-weight: 700;
+  margin-top: 0px;
+  text-align: center;
+  color: #fff;
 }
 
 .second {
@@ -158,11 +232,77 @@ footer {
   background-color: #bbbac5;
 }
 
+.projPageContainer {
+  margin-left: auto;
+  margin-right: auto;
+  height: 540px;
+  width: 98%;
+  min-width: 900px;
+  background-color: #302e82;
+  display: table;
+}
+
+.projPageTxtContainer {
+  color: #fff;
+  display: table-cell;
+  padding: 2rem;
+  position: absolute;
+  margin-top: 100px;
+  margin-left: -85px;
+  min-width: 250px;
+}
+
+.projPageDdiImgContainer {
+  width: 660px;
+  height: 100%;
+  margin-right: 0;
+  display: table-cell;
+}
+
+.projPageDdiImg {
+  margin-left: -30px;
+  width: 100%;
+  display: block;
+}
+
+.ddiColorPallet {
+  display: block;
+  position: relative;
+  width: 70%;
+  margin-left: 23px;
+  bottom: -20px;
+}
+
+#projBtnDiv{
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+#ddiBtn{
+  color: white;
+  background-color: #2f2473;
+  border-radius: 20%;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease 0s; 
+  text-decoration: none;
+  font-weight: 900;
+}
+
+#ddiBtn:hover {
+  zoom: 1.01;
+  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.4);
+  color: #fff;
+  text-decoration: none;
+}
 
 @media only screen and (max-width: 650px) {
-  .home { 
+  .home {
     display: block;
-    width: 100%; 
+    width: 100%;
   }
   .navItem {
     margin-left: inherit;
