@@ -93,17 +93,20 @@ footer {
 }
 .intro {
   margin-top: 10%;
-  text-align: center;
+  margin-left: 2rem;
+  width: 100%;
 }
 
 .introHeader {
-  font-size: 64px;
-  font-weight: 400;
+  font-size: 48px;
+  margin-left: -2px;
+  font-weight: 700;
   margin-bottom: 0;
   padding-bottom: 0;
   color: #5f5e60;
 }
 
+/* ANVÄNDS EJ */
 .introSubHeader {
   font-weight: 100;
   font-size: 18px;
@@ -114,7 +117,28 @@ footer {
 
 .introText {
   font-weight: 100;
+  margin-top: -10px;
+  padding-top: 0;
   color: #000;
+}
+
+.skillsContainer {
+  margin-top: 10%;
+  margin-left: 2rem;
+  width: 50%;
+}
+
+.skillsHeader {
+  margin: 0px;
+  padding: 0px;
+  font-size: 18px;
+  color: #5f5e60;
+  font-weight: 700;
+}
+.skillsElement {
+  margin: 0px;
+  padding: 0px;
+  color: #5f5e60;
 }
 
 .projectContainer {
@@ -150,7 +174,7 @@ footer {
   font-size: 2rem;
 }
 
-.projPageHeader{
+.projPageHeader {
   font-size: 1.5rem;
   color: #818181;
   padding-top: 4rem;
@@ -232,6 +256,51 @@ footer {
   background-color: #bbbac5;
 }
 
+.comming1 {
+  color: #fff;
+  font-size: 42px;
+  text-align: center;
+  margin: 0;
+}
+
+.comming2 {
+  color: #fff;
+  width: 100%;
+  font-size: 20px;
+  text-align: center;
+  margin: 0;
+}
+
+.merit {
+  width: 100%;
+  margin-top: 4rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: #302e82;
+  display: flex;
+}
+
+.meritHeader {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 700;
+}
+.meritTxt {
+  color: #fff;
+}
+
+.education {
+  width: 50%;
+  color: #fff;
+  padding-left: 8rem;
+}
+
+.contact {
+  width: 50%;
+  color: #fff;
+  padding-left: 2rem;
+}
+
 .projPageContainer {
   margin-left: auto;
   margin-right: auto;
@@ -273,21 +342,21 @@ footer {
   bottom: -20px;
 }
 
-#projBtnDiv{
+#projBtnDiv {
   width: 100%;
   align-items: center;
   justify-content: center;
   display: flex;
 }
 
-#ddiBtn{
+#ddiBtn {
   color: white;
   background-color: #2f2473;
   border-radius: 20%;
   padding: 20px;
   margin: 10px;
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
-  transition: all 0.3s ease 0s; 
+  transition: all 0.3s ease 0s;
   text-decoration: none;
   font-weight: 900;
 }
