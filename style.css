@@ -186,8 +186,17 @@ footer {
 .projectItem {
   height: 500px;
   width: 375px;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   transition: all 0.3s ease 0s;
+}
+
+.projectItemWrap{
+  margin-top: 1rem;
+}
+.projectItemWrap:hover{
+  margin-top: 0rem;
+  zoom: 1.01;
+  text-decoration: none;
 }
 
 .projectItem:hover {
@@ -306,7 +315,7 @@ footer {
   margin-right: auto;
   height: 540px;
   width: 98%;
-  min-width: 900px;
+  min-width: 950px;
   background-color: #302e82;
   display: table;
 }
@@ -314,10 +323,10 @@ footer {
 .projPageTxtContainer {
   color: #fff;
   display: table-cell;
-  padding: 2rem;
+  padding: 4rem;
   position: absolute;
-  margin-top: 100px;
-  margin-left: -85px;
+  margin-top: 70px;
+  margin-left: -45px;
   min-width: 250px;
 }
 
@@ -347,6 +356,7 @@ footer {
   align-items: center;
   justify-content: center;
   display: flex;
+  margin-top: 2rem;
 }
 
 #ddiBtn {
