@@ -344,28 +344,12 @@ footer {
 
 .projPageTxtContainer {
   color: #fff;
-  display: table-cell;
-  padding: 4rem;
-  position: absolute;
-  margin-top: -1rem;
-  margin-left: -45px;
-  min-width: 250px;
-}
-
-.projPageTxtContainerDDO {
-  color: #fff;
-  display: table-cell;
-  padding: 5rem;
-  position: absolute;
-  margin-top: 10px;
-  min-width: 250px;
+  padding: 2rem;
 }
 
 .projPageDdiImgContainer {
-  width: 660px;
   height: 100%;
   margin-right: 0;
-  display: table-cell;
 }
 
 .projPageDdiImg {
@@ -409,6 +393,12 @@ footer {
   text-decoration: none;
 }
 
+.projGridContainerDDI {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(375px, 1fr));
+  grid-template-rows: auto;
+  background-color: #302e82;
+}
 .projGridContainer {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(375px, 1fr));
