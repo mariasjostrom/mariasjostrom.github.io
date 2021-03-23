@@ -136,8 +136,15 @@ footer {
   grid-template-columns: repeat(auto-fit, minmax(375px, 1fr));
   grid-gap: 2rem;
   margin-top: 10%;
+}
+
+.skillsContainer {
   padding-left: 2rem;
   padding-right: 2rem;
+}
+
+.meImg{
+  width: 375px;
 }
 
 .skillsHeader {
@@ -429,5 +436,12 @@ footer {
   }
   .intro {
     margin-top: 20%;
+  }
+  .skillsContainer{
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .meImg{
+    width: 100%;
   }
 }
