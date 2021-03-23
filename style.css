@@ -1,6 +1,10 @@
 body {
   margin: 0;
   font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+p{
   font-weight: 100;
 }
 
@@ -343,8 +347,17 @@ footer {
   display: table-cell;
   padding: 4rem;
   position: absolute;
-  margin-top: 70px;
+  margin-top: -1rem;
   margin-left: -45px;
+  min-width: 250px;
+}
+
+.projPageTxtContainerDDO {
+  color: #fff;
+  display: table-cell;
+  padding: 5rem;
+  position: absolute;
+  margin-top: 10px;
   min-width: 250px;
 }
 
@@ -389,7 +402,7 @@ footer {
   align-items: center;
   justify-content: center;
   display: flex;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 #ddiBtn {
