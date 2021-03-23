@@ -91,6 +91,13 @@ footer {
   justify-content: center;
   align-items: center;
 }
+
+.skills {
+  width: 50%;
+  color: #fff;
+  padding-left: 2rem;
+  background-color: #2f2473;
+}
 .intro {
   margin-top: 10%;
   margin-left: 2rem;
@@ -138,7 +145,7 @@ footer {
 .skillsElement {
   margin: 0px;
   padding: 0px;
-  color: #5f5e60;
+  color: #fff;
 }
 
 .projectContainer {
@@ -190,10 +197,10 @@ footer {
   transition: all 0.3s ease 0s;
 }
 
-.projectItemWrap{
+.projectItemWrap {
   margin-top: 1rem;
 }
-.projectItemWrap:hover{
+.projectItemWrap:hover {
   margin-top: 0rem;
   zoom: 1.01;
   text-decoration: none;
@@ -283,8 +290,6 @@ footer {
 .merit {
   width: 100%;
   margin-top: 4rem;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
   background-color: #302e82;
   display: flex;
 }
@@ -294,7 +299,7 @@ footer {
   margin-top: 4rem;
   padding-top: 2rem;
   padding-bottom: 2rem;
-  background-color: #736C9E;
+  background-color: #736c9e;
   display: flex;
 }
 
@@ -309,14 +314,18 @@ footer {
 
 .education {
   width: 50%;
+  height: 100%;
   color: #fff;
-  padding-left: 8rem;
+  padding-left: 2rem;
+  background-color: #736c9e;
 }
 
 .contact {
   width: 50%;
+  height: 100%;
   color: #fff;
   padding-left: 2rem;
+  background-color: #302e82;
 }
 
 .projPageContainer {
