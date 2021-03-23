@@ -374,21 +374,6 @@ footer {
   display: block;
 }
 
-.projPagePDOImgContainer {
-  width: 50%;
-  height: 100%;
-  margin-right: 0;
-  display: table-cell;
-}
-
-.projPagePDOImg {
-  width: 647px;
-  margin-top: 90px;
-  margin-left: 16px;
-  justify-self: center;
-  align-self: center;
-}
-
 .ddiColorPallet {
   display: block;
   position: relative;
@@ -422,6 +407,25 @@ footer {
   box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.4);
   color: #fff;
   text-decoration: none;
+}
+
+.projGridContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(375px, 1fr));
+  grid-template-rows: auto;
+  background-color: #302e82;
+}
+
+.projPagePDOImg {
+  width: 95%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 3rem;
+}
+
+.projGridTxt {
+  padding: 4rem;
+  color: #fff;
 }
 
 @media only screen and (max-width: 650px) {
