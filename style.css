@@ -198,7 +198,7 @@ footer {
   height: 500px;
   width: 375px;
   margin-bottom: 2rem;
-  transition: all 0.3s ease 0s;
+  transition: zoom 0.3s ease 0s;
 }
 
 .projectItemWrap {
