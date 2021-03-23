@@ -126,7 +126,6 @@ footer {
 
 .introText {
   font-weight: 100;
-  margin-top: -10px;
   padding-top: 0;
   color: #000;
 }
@@ -135,7 +134,6 @@ footer {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(375px, 1fr));
   grid-gap: 2rem;
-  margin-top: 10%;
 }
 
 .skillsContainer {
@@ -172,7 +170,7 @@ footer {
 }
 
 .spacer {
-  margin-top: 10%;
+  padding-top: 8rem;
 }
 
 .projectTitle {
@@ -433,9 +431,6 @@ footer {
   .navIconDiv {
     margin-top: inherit;
     margin-right: 2rem;
-  }
-  .intro {
-    margin-top: 20%;
   }
   .skillsContainer{
     padding-left: 1rem;
