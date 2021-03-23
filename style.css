@@ -23,6 +23,10 @@ a:hover {
   text-decoration: underline;
 }
 
+.iconLink:hover{
+  text-decoration: none;
+}
+
 .pageContainer {
   position: relative;
   min-height: 100vh;
