@@ -135,9 +135,6 @@ footer {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(375px, 1fr));
   grid-gap: 2rem;
-}
-
-.skillsContainer {
   margin-top: 10%;
   padding-left: 2rem;
   padding-right: 2rem;
