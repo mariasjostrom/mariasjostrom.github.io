@@ -40,6 +40,7 @@ a:hover {
 }
 
 .home {
+  margin-left: 1rem;
   margin-right: 1rem;
   font-weight: 700;
   font-size: 1.5rem;
@@ -57,15 +58,19 @@ footer {
   position: fixed;
   display: flex;
   top: 0;
-  width: 100vw;
+  left: 0;
+  width: 100%;
   padding-top: 2rem;
   background: #fff;
 }
 
 .navBar {
+  margin-left: 2rem;
   padding-left: 2rem;
-  width: 100%;
+  width: 100vw;
   max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .navItem {
@@ -109,19 +114,19 @@ footer {
 .introHeader {
   font-size: 48px;
   margin-left: -2px;
-  font-weight: 700;
   margin-bottom: 0;
+  margin-top: 0;
+  font-weight: 700;
   padding-bottom: 0;
+  line-height: 1;
   color: #5f5e60;
 }
 
-/* ANVÄNDS EJ */
 .introSubHeader {
-  font-weight: 100;
-  font-size: 18px;
+  font-size: 28px;
   margin-top: 0;
   padding-top: 0;
-  color: #818181;
+  color: #5f5e60;
 }
 
 .introText {
@@ -141,7 +146,7 @@ footer {
   padding-right: 2rem;
 }
 
-.meImg{
+.meImg {
   width: 375px;
 }
 
@@ -170,7 +175,7 @@ footer {
 }
 
 .spacer {
-  padding-top: 8rem;
+  padding-top: 12rem;
 }
 
 .projectTitle {
@@ -236,13 +241,7 @@ footer {
   background-color: #2f2473;
 }
 
-.pdo {
-  height: 90%;
-  margin-left: auto;
-  margin-right: auto;
-}
-.ddi {
-  width: 90%;
+.cardIcon {
   margin-left: auto;
   margin-right: auto;
 }
@@ -256,7 +255,7 @@ footer {
 
 .projcetCardTitle {
   font-size: 22px;
-  font-weight: 700;
+  font-weight: 400;
   margin-top: 0px;
   text-align: center;
   color: #fff;
@@ -368,6 +367,13 @@ footer {
   bottom: -20px;
 }
 
+.projPageSosImg {
+  margin: 2rem;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 #projBtnDiv {
   width: 100%;
   align-items: center;
@@ -432,11 +438,11 @@ footer {
     margin-top: inherit;
     margin-right: 2rem;
   }
-  .skillsContainer{
+  .skillsContainer {
     padding-left: 1rem;
     padding-right: 1rem;
   }
-  .meImg{
+  .meImg {
     width: 100%;
   }
 }

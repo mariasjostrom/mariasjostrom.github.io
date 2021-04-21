@@ -6,12 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Maria Sjöström</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
-    <link rel="icon" href="favicon.png">
+    <link rel="icon" href="favicon.png" />
     <script src="script.js" defer></script>
     <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
       rel="stylesheet"
     />
   </head>
@@ -56,10 +55,61 @@
           </div>
         </div>
 
-        <div class="container">
-          <div class="intro">
+        <div id="aboutDiv" class="spacer"></div>
+
+        <div class="skillsGrid">
+          <div class="skillsContainer">
             <h1 class="introHeader">Hello and welcome</h1>
-            <p class="introText">Maria Sjöström, UX-design student</p>
+            <h1 class="introSubHeader">About me</h1>
+            <p class="introText">
+              I'm an active, curious and driven Ux design student. In June i’ll
+              graduate from Halmstad University and from there on i will move
+              back home to the Gothenburg area to find my next challenge and
+              hopefully start a Ux design career. The best part of being a Ux
+              student has been to work with a wide range of clients and together
+              with classmates create and dig deep into Ux-problems in order to
+              find user needs.
+            </p>
+          </div>
+          <div class="skillsContainer">
+            <img class="meImg" src="./asserts/m2_b&w.jpg" />
+          </div>
+        </div>
+
+        <div class="merit">
+          <div class="education">
+            <h2 class="meritHeader">Education</h2>
+            <p class="meritTxt">
+              2018-2021 Halmstad university <br />
+              Digital design and innovation
+            </p>
+            <p class="meritTxt">
+              2017 North Park University, Chicago <br />
+              Public speaking
+            </p>
+            <p class="meritTxt">
+              2016 Loxdale english centre, Brighton, UK<br />
+              Advanced english
+            </p>
+            <p class="meritTxt">
+              2011-2014 Mimers hus gymnasium<br />
+              Aesthetic media
+            </p>
+          </div>
+
+          <div class="skills">
+            <h2 class="meritHeader">Skills</h2>
+            <p class="skillsElement">- Ux design</p>
+            <p class="skillsElement">- Service design</p>
+            <p class="skillsElement">- Agile work</p>
+            <p class="skillsElement">- Figma</p>
+            <p class="skillsElement">- Miro</p>
+          </div>
+
+          <div class="contact">
+            <h2 class="meritHeader">Contact</h2>
+            <p class="meritTxt">mariasjostrom9505@hotmail.com</p>
+            <p class="meritTxt">+46&nbsp;706&nbsp;642&nbsp;094</p>
           </div>
         </div>
 
@@ -72,7 +122,7 @@
               <div class="imgContainer">
                 <img
                   src="./asserts/pdo.png"
-                  class="pdo"
+                  class="cardIcon"
                   style="height: 360px"
                 />
               </div>
@@ -85,7 +135,7 @@
               <div class="imgContainer">
                 <img
                   src="./asserts/ddi.png"
-                  class="ddi"
+                  class="cardIcon"
                   style="height: 207px"
                 />
               </div>
@@ -93,15 +143,16 @@
               <p class="projcetCardTitle">Grafic manual</p>
             </div>
           </a>
-          <a class="projectItemWrap">
+          <a class="projectItemWrap" href="./projects/sos.html">
             <div class="projectItem third">
               <div class="imgContainer">
-                <div class="comming1">
-                  IN PROGRESS
-                  <p class="comming2">Coming soon</p>
-                </div>
+                <img
+                  src="./asserts/sos1.png"
+                  class="cardIcon"
+                  style="width: 370px"
+                />
               </div>
-              <p class="projectCardHeader">UX-design, designresearch</p>
+              <p class="projectCardHeader">UX-design, design-research</p>
               <p class="projcetCardTitle">Online collaboration for students</p>
             </div>
           </a>
@@ -138,68 +189,9 @@
                 </div>
               </div>
               <p class="projectCardHeader">Bachelor's thesis</p>
-              <p class="projcetCardTitle">Accessibilityt</p>
+              <p class="projcetCardTitle">Accessibility</p>
             </div>
           </a>
-        </div>
-
-        <div id="aboutDiv" class="spacer"></div>
-        
-        <div class="skillsGrid" >
-          <div class="skillsContainer">
-            <h1 class="introHeader">About me</h1>
-            <p class="introText">
-              Hello and welcome to my portfolio! I'm an active, curious and driven UX design student. In June i’ll
-              graduate from Halmstad University and from there on i will move
-              back home to the Gothenburg area to find my next challenge and
-              hopefully start a UX design career. The best part of being a Ux
-              student has been to work with a wide range of clients and together
-              with classmates create and dig deep into UX-problems in order to
-              find user needs.
-            </p>
-          </div>
-          <div class="skillsContainer">
-            <img class="meImg" src="./asserts/m2_b&w.jpg" />
-          </div>
-        </div>
-
-        <div class="merit">
-          <div class="education">
-            <h2 class="meritHeader">Education</h2>
-            <p class="meritTxt">
-              2018-2021 Halmstad university <br />
-              Digital design and innovation
-            </p>
-            <p class="meritTxt">
-              2017 North Park University, Chicago <br />
-              Public speaking
-            </p>
-            <p class="meritTxt">
-              2016 Loxdale english centre, Brighton, UK<br />
-              Advanced english
-            </p>
-            <p class="meritTxt">
-              2011-2014 Mimers hus gymnasium<br />
-              Aesthetic media
-            </p>
-          </div>
-
-          <div class="skills">
-            <h2 class="meritHeader">Skills</h2>
-            <p class="skillsElement">- UX design</p>
-            <p class="skillsElement">- Service design</p>
-            <p class="skillsElement">- Agile work</p>
-            <p class="skillsElement">- Figma</p>
-            <p class="skillsElement">- Miro</p>
-            <p class="skillsElement">- Adobe XD</p>
-            <p class="skillsElement">- Sketch</p>
-          </div>
-
-          <div class="contact">
-            <h2 class="meritHeader">Contact</h2>
-            <p class="meritTxt">mariasjostrom9505@hotmail.com</p>
-            <p class="meritTxt">+46&nbsp;706&nbsp;642&nbsp;094</p>
-          </div>
         </div>
       </div>
 
